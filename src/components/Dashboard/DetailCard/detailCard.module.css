@@ -1,0 +1,112 @@
+/* .detailCard {
+  background: #242625;
+  color: #fff;
+  font-size: 20px;
+  max-width: 435px;
+  min-height: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 38px;
+  overflow: hidden;
+  /* margin-top: 50px;
+  margin-right: 50px; */
+/* box-shadow: -1px 0px 31px 0px rgba(94, 66, 72, 0.75);
+  -webkit-box-shadow: -1px 0px 31px 0px rgba(94, 66, 72, 0.75);
+  -moz-box-shadow: -1px 0px 31px 0px rgba(94, 66, 72, 0.75);
+  transition: 0.3s all ease-in-out;
+  justify-content: space-between;
+  padding: 20px;
+  transition: 0.3s all ease-in-out;
+  margin-bottom: 65px;
+} 
+*/
+.detailCard {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.detailCard .cardText {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  width: 100%;
+  /* padding: 10px; */
+  text-align: left;
+  margin: 0 auto;
+}
+.cardDate .workingHours {
+  display: flex;
+  /* flex-direction: column; */
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons button {
+  max-width: 100px;
+  width: 100%;
+  min-height: 30px;
+}
+.buttons button:nth-child(1) {
+  margin-right: 15px;
+}
+.dashBoardTable {
+  overflow-x: auto;
+}
+.dashBoardTable table {
+  display: table;
+  max-width: 100%;
+  width: 100%;
+  margin: 0px 0 50px 0;
+}
+.dashBoardTable td,
+.dashBoardTable th {
+  border: 1px solid #fff;
+}
+.dashBoardTable th {
+  padding: 12px;
+  text-align: left;
+  background: #bdbfde;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+}
+.dashBoardTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.dashBoardTable tbody tr:nth-child(odd) {
+  background-color: #ddd;
+}
+.dashBoardTable tbody td {
+  font-size: 18px;
+  padding: 12px;
+  font-weight: normal;
+  text-align: left;
+  /* border: 1px solid #fff; */
+}
+.buttons button {
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  border: unset;
+}
+.EditBtn {
+  background: #0d6efd;
+}
+.DeleteBtn {
+  background: #f53434;
+}
+.showBtn {
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  border: unset;
+  background: #0d6efd;
+}
+/* Media Queries */
+@media screen and (max-width: 767px) {
+  .dashBoardTable th {
+    font-size: 16px;
+  }
+}

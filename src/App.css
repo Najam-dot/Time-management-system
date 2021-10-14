@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans";
+  background: linear-gradient(
+    149deg,
+    rgba(168, 245, 251, 1) 0%,
+    rgba(235, 168, 255, 1) 100%
+  );
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  list-style-type: none;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+}
+input:focus,
+input:active {
+  outline: none !important;
+  border: none !important;
+}
+.active {
+  background-color: #7e9fe6 !important;
+  color: #fff !important;
+}
+.pagination {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.sweet-loading {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: 50%;
+  left: 50%;
+  /* background: black !important; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.sweet-loading span {
+  background-color: #000;
+}
+.pagination li {
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f8f8f8;
+  background-color: hsl(198deg 77% 61%);
+  color: #fff;
+  margin: 0 5px;
+}
+.pagination li a {
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .pagination {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
   }
 }

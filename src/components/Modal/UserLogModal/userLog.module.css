@@ -1,0 +1,31 @@
+.popUp {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0aa89;
+  z-index: 999;
+}
+.formWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formWrap input {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #fe4066;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.formWrap select {
+  word-wrap: normal;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #fe4066;
+  border-radius: 5px;
+}

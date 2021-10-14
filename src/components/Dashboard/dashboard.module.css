@@ -1,0 +1,80 @@
+.dashBoard {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  background: linear-gradient(
+    149deg,
+    rgba(168, 245, 251, 1) 0%,
+    rgba(235, 168, 255, 1) 100%
+  );
+}
+.dashBoardWrap {
+  padding: 45px 0px;
+}
+.dashBoardCardWrap {
+  padding: 50px 15px;
+}
+
+.dashBoard h2 {
+  margin-bottom: 35px;
+  font-size: 50px;
+  line-height: 49px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.dashBoardTable {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 68px 0px;
+}
+.searchBar input {
+  padding: 6px 8px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 20px;
+  min-height: 40px;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: unset;
+  width: 100%;
+}
+
+.searchBar button {
+  background-color: #000;
+  min-height: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  padding: 0px 15px;
+  line-height: 43px;
+}
+
+.cardOuter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.cardItem {
+  max-width: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+/* .roleBtn {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+} */

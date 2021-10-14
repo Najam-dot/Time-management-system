@@ -1,0 +1,30 @@
+.tabButtons button {
+  outline: none;
+  background: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: unset;
+  line-height: 55px;
+  color: #7e9fe6;
+  font-size: 22px;
+  padding: 0 35px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.active {
+  background-color: #7e9fe6 !important;
+  color: #fff;
+}
+/* Media Queries */
+@media screen and (max-width: 400px) {
+  .tabButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tabButtons button {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+.userLogWrap {
+  padding: 65px 20px;
+}
+.userLogWrap h2 {
+  font-size: 50px;
+  line-height: 49px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
